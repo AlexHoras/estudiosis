@@ -1,6 +1,10 @@
-<<<<<<< HEAD
-# estudiosis
-=======
+<h2>Linguagem utilizado PHP com o Framework LARAVEL</h2>
+
+<p>Ceo -> User: antonio / Senha: 123 </p>
+<p>Administrador -> User: paulo / Senha: 132</p>
+<p>Comercial -> User: pai2 / Senha: 123</p>
+<p>Financeiro -> User: marcos / Senha: 123</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
