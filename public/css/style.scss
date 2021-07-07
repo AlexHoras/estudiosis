@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+.login{
+    background: url('./../img/fotoLogin.jpg') no-repeat;  
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;    
+    .centraliza{
+        padding: 130px;
+        form{
+            margin: auto;
+            background: #00000094;
+            padding: 25px;
+            border-radius: 15px;           
+            h2{
+                font-weight: 400;
+                margin: 0 0 30px;
+                color: #097286;
+                padding: 0;
+                font-size: 4em;
+            }
+            .form-floating{
+                input{
+                    background: #ffffffa6;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 1.4em;
+                }                
+                label{
+                    color: #097286;
+                }
+            }            
+            button{					
+                background: rgba(0, 0, 0, 0.041);			    
+                width: 100%;				    			
+                transition: all .5s ease-in-out;							
+                border-radius: 0.2em;									
+                display: flex;	
+                justify-content: center;				
+                font-size: 1.2em;
+                font-weight: 500;
+                line-height: 1;
+                padding: 9px;
+                margin-top: 20px;
+                text-decoration: none;
+                text-align: center;
+                text-transform: uppercase;			
+                &:hover, &:focus {
+                    color: #097286;
+                }		
+            }
+            .third{							
+                color: black;
+                box-shadow: 0 0 40px 40px #097286 inset, 0 0 0 0 #097286;				
+                transition: all .3s ease-in-out;							
+                &:hover {
+                    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px #097286;
+                }
+            }			
+        }
+    }
+}
+.homeAdm{
+    background: linear-gradient(45deg, black, #04404d);
+    height: 100%;
+    .opcoesAdm{
+        padding: 190px;
+        h2{
+            font-weight: 500;
+            margin: 0px 0 40px;
+            color: #fff;
+            padding: 0;            
+            font-size: 2.5em;
+            text-align: center;
+        }
+        .cadastros{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .cadastraUsuario{
+                a{
+                    text-decoration: none;
+                    padding: 14px;
+                    border-radius: 31px;
+                    margin: 5px;
+                    color: white;
+                    background: linear-gradient(44deg,#097286, #020202);                    
+                    font-size: 1.2em;
+                    font-weight: 500;
+                    letter-spacing: 1;
+                    transition: all .5s;
+                    &:hover{
+                        background: linear-gradient(44deg, #020202, #097286);
+                        transition: all .5s;
+                    }
+                }
+            }
+            .cadastraImoveis{
+                a{
+                    text-decoration: none;
+                    padding: 14px;
+                    border-radius: 31px;
+                    margin: 5px;
+                    color: white;
+                    background: linear-gradient(44deg,#020202, #650404);                    
+                    font-size: 1.2em;
+                    font-weight: 500;
+                    letter-spacing: 1;
+                    transition: all .5s;
+                    &:hover{
+                        background: linear-gradient(44deg, #650404, #020202);
+                        transition: all .5s;
+                    }
+                }
+            }
+        }
+    }
+}
+.cadastraUsuarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100%;
+    .centraliza{
+        form{
+            margin: auto;
+            background: #00000094;
+            padding: 25px;
+            border-radius: 15px;               
+            h2{
+                font-weight: 400;
+                margin: 0 0 30px;
+                color: #097286;
+                padding: 0;
+                font-size: 4em;
+            }
+            .form-floating{
+                input{
+                    background: #ffffffa6;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 1.4em;
+                    margin: 10px 0;
+                }                
+                label{
+                    color: #097286;
+                }
+            }            
+            .form-control{
+                select{
+                    background: #ffffffa6;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 1.4em;
+                    margin: 10px 0;
+                }
+            }
+            button{					
+                background: rgba(0, 0, 0, 0.041);			    
+                width: 100%;				    			
+                transition: all .5s ease-in-out;							
+                border-radius: 0.2em;									
+                display: flex;	
+                justify-content: center;				
+                font-size: 1.2em;
+                font-weight: 500;
+                line-height: 1;
+                padding: 9px;
+                margin-top: 20px;
+                text-decoration: none;
+                text-align: center;
+                text-transform: uppercase;			
+                &:hover, &:focus {
+                    color: #097286;
+                }		
+            }
+            .third{							
+                color: black;
+                box-shadow: 0 0 40px 40px #097286 inset, 0 0 0 0 #097286;				
+                transition: all .3s ease-in-out;							
+                &:hover {
+                    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px #097286;
+                }
+            }			
+        }
+    }    
+}
+.usuarios{
+    .texto{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px 60px;
+        background: linear-gradient(45deg, black, #036173);    
+        h2{
+            font-weight: 400;
+            margin: 0 0 30px;
+            color: #fff;
+            padding: 0px;
+            font-size: 4em;
+        }
+        .opcao{
+            a{
+                text-decoration: none;
+                padding: 14px;
+                border-radius: 31px;
+                margin: 5px;
+                color: white;
+                background: linear-gradient(44deg,#097286, #020202);                    
+                font-size: 1.2em;
+                font-weight: 500;
+                letter-spacing: 1;
+                transition: all .5s;
+                &:hover{
+                    background: linear-gradient(44deg, #020202, #097286);
+                    transition: all .5s;
+                }
+            }            
+        }
+    }
+}
+.esteira{
+	width: 90%;
+	margin: 25px auto 80px;
+	.selecao{
+		height: 32px;
+		color: #074377;
+		border-color: #6495ed66;
+		padding-left: 11px;
+		font-size: 14px;
+		font-weight: 300;
+		&:focus {
+			outline: -webkit-focus-ring-color auto 0;
+		}
+	}
+    .remove{
+        background: black;
+        color: #fff;
+        font-size: 18px;
+        padding: 4px 30px;
+        font-weight: 400;
+        border-radius: 10px;
+        background: linear-gradient(44deg,#020202, #650404);        
+        letter-spacing: 1;
+        transition: all .5s;
+        &:hover{
+            background: linear-gradient(44deg, #650404, #020202);
+            transition: all .5s;
+        }
+    }
+	.label{
+		font-size: 18px;
+		font-weight: 500;
+		color: black;
+		margin-bottom: 10px;
+	}
+	.filtro{
+		margin-bottom: 15px;
+		float: right;
+	}
+	.filtrando{
+		color: #064169;
+		border: 1px solid #064169;
+		transition: all .3s;
+		&:hover{
+			color: #fff;
+			background: #064169;
+			transition: all .3s;
+		}
+	}
+	.dataTables_wrapper{
+		@media screen and (max-width: 1060px){
+			overflow: scroll;
+		}
+	}
+	.dataTables_length{
+		@media screen and (max-width: 640px){
+			float: left;
+		}
+	}
+	.dataTables_filter{
+		@media screen and (max-width: 640px){
+			float: right;
+			margin-top: 0;
+		}
+	}
+
+	table{
+		thead{
+			background: linear-gradient(44deg,#020202, #097286);
+			color: white;
+			letter-spacing: 2px;
+		}
+		tbody{
+			tr{
+				td{
+					font-size: 1em;
+					font-weight: 500;
+					color: black;
+					&:nth-child(1){
+						color: black;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+    

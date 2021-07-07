@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap");
+.login {
+  background: url("./../img/fotoLogin.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+.login .centraliza {
+  padding: 130px;
+}
+.login .centraliza form {
+  margin: auto;
+  background: #00000094;
+  padding: 25px;
+  border-radius: 15px;
+}
+.login .centraliza form h2 {
+  font-weight: 400;
+  margin: 0 0 30px;
+  color: #097286;
+  padding: 0;
+  font-size: 4em;
+}
+.login .centraliza form .form-floating input {
+  background: #ffffffa6;
+  color: black;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+.login .centraliza form .form-floating label {
+  color: #097286;
+}
+.login .centraliza form button {
+  background: rgba(0, 0, 0, 0.041);
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1;
+  padding: 9px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.login .centraliza form button:hover, .login .centraliza form button:focus {
+  color: #097286;
+}
+.login .centraliza form .third {
+  color: black;
+  box-shadow: 0 0 40px 40px #097286 inset, 0 0 0 0 #097286;
+  transition: all 0.3s ease-in-out;
+}
+.login .centraliza form .third:hover {
+  box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px #097286;
+}
+
+.homeAdm {
+  background: linear-gradient(45deg, black, #04404d);
+  height: 100%;
+}
+.homeAdm .opcoesAdm {
+  padding: 190px;
+}
+.homeAdm .opcoesAdm h2 {
+  font-weight: 500;
+  margin: 0px 0 40px;
+  color: #fff;
+  padding: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+.homeAdm .opcoesAdm .cadastros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeAdm .opcoesAdm .cadastros .cadastraUsuario a {
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 31px;
+  margin: 5px;
+  color: white;
+  background: linear-gradient(44deg, #097286, #020202);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1;
+  transition: all 0.5s;
+}
+.homeAdm .opcoesAdm .cadastros .cadastraUsuario a:hover {
+  background: linear-gradient(44deg, #020202, #097286);
+  transition: all 0.5s;
+}
+.homeAdm .opcoesAdm .cadastros .cadastraImoveis a {
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 31px;
+  margin: 5px;
+  color: white;
+  background: linear-gradient(44deg, #020202, #650404);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1;
+  transition: all 0.5s;
+}
+.homeAdm .opcoesAdm .cadastros .cadastraImoveis a:hover {
+  background: linear-gradient(44deg, #650404, #020202);
+  transition: all 0.5s;
+}
+
+.cadastraUsuarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100%;
+}
+.cadastraUsuarios .centraliza form {
+  margin: auto;
+  background: #00000094;
+  padding: 25px;
+  border-radius: 15px;
+}
+.cadastraUsuarios .centraliza form h2 {
+  font-weight: 400;
+  margin: 0 0 30px;
+  color: #097286;
+  padding: 0;
+  font-size: 4em;
+}
+.cadastraUsuarios .centraliza form .form-floating input {
+  background: #ffffffa6;
+  color: black;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+.cadastraUsuarios .centraliza form .form-floating label {
+  color: #097286;
+}
+.cadastraUsuarios .centraliza form .form-control select {
+  background: #ffffffa6;
+  color: black;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+.cadastraUsuarios .centraliza form button {
+  background: rgba(0, 0, 0, 0.041);
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1;
+  padding: 9px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cadastraUsuarios .centraliza form button:hover, .cadastraUsuarios .centraliza form button:focus {
+  color: #097286;
+}
+.cadastraUsuarios .centraliza form .third {
+  color: black;
+  box-shadow: 0 0 40px 40px #097286 inset, 0 0 0 0 #097286;
+  transition: all 0.3s ease-in-out;
+}
+.cadastraUsuarios .centraliza form .third:hover {
+  box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px #097286;
+}
+
+.usuarios .texto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 60px;
+  background: linear-gradient(45deg, black, #036173);
+}
+.usuarios .texto h2 {
+  font-weight: 400;
+  margin: 0 0 30px;
+  color: #fff;
+  padding: 0px;
+  font-size: 4em;
+}
+.usuarios .texto .opcao a {
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 31px;
+  margin: 5px;
+  color: white;
+  background: linear-gradient(44deg, #097286, #020202);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1;
+  transition: all 0.5s;
+}
+.usuarios .texto .opcao a:hover {
+  background: linear-gradient(44deg, #020202, #097286);
+  transition: all 0.5s;
+}
+
+.esteira {
+  width: 90%;
+  margin: 25px auto 80px;
+}
+.esteira .selecao {
+  height: 32px;
+  color: #074377;
+  border-color: #6495ed66;
+  padding-left: 11px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.esteira .selecao:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+.esteira .remove {
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  padding: 4px 30px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: linear-gradient(44deg, #020202, #650404);
+  letter-spacing: 1;
+  transition: all 0.5s;
+}
+.esteira .remove:hover {
+  background: linear-gradient(44deg, #650404, #020202);
+  transition: all 0.5s;
+}
+.esteira .label {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+}
+.esteira .filtro {
+  margin-bottom: 15px;
+  float: right;
+}
+.esteira .filtrando {
+  color: #064169;
+  border: 1px solid #064169;
+  transition: all 0.3s;
+}
+.esteira .filtrando:hover {
+  color: #fff;
+  background: #064169;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 1060px) {
+  .esteira .dataTables_wrapper {
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 640px) {
+  .esteira .dataTables_length {
+    float: left;
+  }
+}
+@media screen and (max-width: 640px) {
+  .esteira .dataTables_filter {
+    float: right;
+    margin-top: 0;
+  }
+}
+.esteira table thead {
+  background: linear-gradient(44deg, #020202, #097286);
+  color: white;
+  letter-spacing: 2px;
+}
+.esteira table tbody tr td {
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+}
+.esteira table tbody tr td:nth-child(1) {
+  color: black;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
